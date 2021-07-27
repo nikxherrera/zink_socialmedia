@@ -1,0 +1,88 @@
+@font-face {
+  font-family: headFontz;
+
+  src: url(fonts/setofont.woff.ttf) format("truetype");
+}
+
+#zinkfont {
+  /* hindi nagana.... */
+  font-family: headFontz;   
+}
+
+body {
+  background-color: #50BCB9;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+.form {
+  display: flex;
+  margin: auto;
+}
+
+#sign-in-container {
+width:36%;
+  border-radius: 27px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  background-color: #FFB600;
+  border: 2px solid black;
+  margin: auto;
+  position: fixed;
+  margin-top: 85px;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 15px;
+}
+
+h1 {
+color:#111;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 8px;
+  position: fixed;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  width: 96%;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  background-color: #F4B998;
+  border: 2px solid black;
+  padding-top: 10px;
+}
+
+.sign-in-form h2 {
+color:#111;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.sign-in-form label {
+color:#111;
+font-size:19px;
+font-weight:bold;
+margin-right:30px;
+}
+
+.btn-sign-in {
+  color:#111;
+  font-size:19px;
+  width:200px;
+  line-height:30px;
+  background-color:#eeeeee;
+  border:2px solid black;
+  -webkit-border-radius:27px;
+  -moz-border-radius:27px;
+  -o-border-radius:27px;
+  border-radius: 27px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-sign-in:hover {
+  color:#eeeeee;
+  background-color:#111;
+  transition: 1s ease;
+}

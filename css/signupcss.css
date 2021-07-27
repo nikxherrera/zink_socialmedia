@@ -1,0 +1,131 @@
+@font-face {
+  font-family: headFontz;
+
+  src: url(fonts/setofont.woff.ttf) format("truetype");
+}
+
+#zinkfont {
+  /* hindi nagana.... */
+  font-family: headFontz;   
+}
+
+/* 
+body {
+} */
+
+#sign-up-container {
+width: 771px;
+margin:auto;
+display: block;
+  margin-top: 65px;
+  margin-right: 1px;
+}
+
+#sign-up-container a {
+text-decoration:none;
+}
+
+#sign-up-container a:hover {
+color:#ff0000;
+}
+
+.sign-up-form {
+width:771px;
+}
+
+.sign-up-form h2 {
+  color:#111;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  height: 50px;
+  width: 728px;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  background-color: #FFB600;
+  border: 2px solid black;
+  padding-top: 13px;
+  margin-left: 20px;
+}
+
+.sign-up-form b {
+  color:#111;
+  margin:23px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sign-up-form strong {
+  color: #111;
+  font-size: 13px;
+  margin:23px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sign-up-form label {
+  color: #111;
+font-size:19px;
+font-weight:bold;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-1 {
+width:300px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  border: 2px solid black;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.btn-sign-up:hover {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:#0488cd;
+border:2px solid #0488cd;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.sign-up-form-1 {
+width:700px;
+background-color:#EB563A;
+margin:auto;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  border: 2px solid black;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-size:12px;
+}
+
+.sign-up-form-1 table {
+width:100%;
+background-color:#EB563A;
+margin:auto;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  border: 2px solid black;
+}
+
+.sign-up-form-1 legend {
+font-size:30px;
+font-weight:bold;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+

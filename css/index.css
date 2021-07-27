@@ -1,0 +1,88 @@
+
+@font-face {
+  font-family: headFontz;
+  
+  src: url(fonts/setofont.woff.ttf) format("truetype");
+}
+
+#zinkfont {
+  /* hindi nagana.... */
+  font-family: headFontz;   
+}
+body {
+  background-color: #8a8a5c;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#header {
+  border-radius: 27px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  background-color: #d6d6c2;
+  border: 2px solid black;
+  margin: auto;
+  width: 700px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+/* .head-view {
+} */
+
+.head-view ul {
+padding-left: 0px;
+}
+
+.head-view  li {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+  .head-view b {
+  color:#111;
+  font-size:50px;
+}
+
+.btn-sign-in {
+  color:#111;
+  font-size:19px;
+  width:100px;
+  line-height:30px;
+  background-color:#eeeeee;
+  border:2px solid black;
+  -webkit-border-radius:27px;
+  -moz-border-radius:27px;
+  -o-border-radius:27px;
+  border-radius: 27px;
+  transition: 1s ease;
+  margin-bottom: 10px;
+
+}
+
+.btn-sign-in:hover {
+  color:#eeeeee;
+  background-color:#111;
+}
+
+.btn-sign-up {
+  color:#eeeeee;
+  font-size:19px;
+  width:100px;
+  line-height:30px;
+  background-color:#111;
+  border:2px solid black;
+  -webkit-border-radius:27px;
+  -moz-border-radius:27px;
+  -o-border-radius:px;
+  border-radius:27px;
+  transition: 1s ease;
+}
+
+.btn-sign-up:hover {
+  color:#111;
+  background-color:#eeeeee;
+}
+

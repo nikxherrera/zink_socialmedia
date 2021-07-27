@@ -1,0 +1,573 @@
+@font-face {
+  font-family: headFontz;
+
+  src: url(fonts/setofont.woff.ttf) format("truetype");
+}
+
+#zinkfont {
+  /* hindi nagana.... */
+  font-family: headFontz;
+}
+
+body {
+  background-color: #50bcb9;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#header {
+  background-color: #f4b998;
+  width: 97%;
+  margin-top: 10px;
+  border-radius: 27px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  border: 2px solid black;
+  position: fixed;
+  margin: auto;
+  margin-left: 8px;
+}
+
+.head-view {
+  margin: auto;
+  width: 1300px;
+  line-height: 50px;
+}
+
+.head-view label {
+  color: #111;
+  font-size: 25px;
+  font-weight: 2px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.head-view ul {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.head-view li {
+  display: inline-block;
+  margin: 5px 30px 5px 5px;
+  vertical-align: middle;
+}
+
+.head-view li a {
+  text-decoration: none;
+}
+
+.head-view li a > img {
+  height: 45px;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: 0.5s ease;
+}
+
+.head-view label:hover {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.head-view img {
+  width: 45px;
+}
+
+.head-view li a > img:hover {
+  transform: scale(1.5);
+}
+
+.head-view b {
+  color: #111;
+  font-size: 50px;
+}
+
+.btn-sign-in {
+  color: #111;
+  font-size: 19px;
+  width: 100px;
+  line-height: 30px;
+  background-color: #eeeeee;
+  border: 2px solid black;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -o-border-radius: 27px;
+  margin-top: 0px;
+}
+
+.btn-sign-in:hover {
+  color: #eeeeee;
+  background-color: #111;
+  border: 2px solid black;
+}
+
+.btn-sign-up {
+  color: #ffffff;
+  font-size: 19px;
+  width: 100px;
+  line-height: 30px;
+  background-color: #0bacff;
+  border: 2px solid #0bacff;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.btn-sign-up:hover {
+  color: #ffffff;
+  background-color: #0488cd;
+  border: 2px solid #0488cd;
+}
+
+#container {
+  width: 1200px;
+  margin: auto;
+}
+
+#left-nav {
+  float: left;
+}
+
+#left-nav1 {
+  width: 348px;
+  float: left;
+  border: 2px solid black;
+  border-radius: 27px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  margin-top: 15px;
+  background-color: #f4b998;
+}
+
+#left-nav1 h2 {
+  text-indent: 10px;
+  color: #111;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+#left-nav1 table {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 13px;
+}
+
+#left-nav1 b {
+  color: #111;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+#left-nav1 b:hover {
+  color: #eeeeee;
+  text-shadow: 2px 2px 2px #000000;
+  cursor: pointer;
+}
+
+#left-nav1 label {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.clip1 {
+  margin-top: -200px;
+  margin-left: 20px;
+  width: 190px;
+  height: 180px;
+}
+
+.clip1 img {
+  width: 190px;
+  height: 180px;
+  border: solid 2px black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#clip2 {
+  float: left;
+  background-color: #d6d6c2;
+  height: 500px;
+  width: 1190px;
+  margin-top: 87px;
+  border: solid 2px black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#clip2 img {
+  width: 100%;
+  height: 500px;
+  border: solid 2px black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.user-details {
+  min-width: 300px;
+  width: auto;
+  margin: -100px 0 0 200px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  margin-left: 250px;
+}
+
+.user-details label {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+  font-size: 27.5px;
+}
+
+.user-details b {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+#right-nav {
+  float: right;
+  width: 800px;
+  background-color: #ffb600;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border: 2px solid black;
+  border-radius: 27px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  margin-top: 15px;
+}
+
+#right-nav h1 {
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 3%;
+}
+
+#right-nav input {
+  background-color: #eeeeee;
+  border: 2px solid black;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -o-border-radius: 27px;
+  margin-left: 3%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.post-text {
+  width: 93%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 27px;
+  box-shadow: 0 1px 2px 1px rgba(130, 130, 130, 0.1);
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 25px;
+  font-size: 19px;
+  text-indent: 5px;
+  margin-left: 3%;
+}
+
+.btn-add-photo {
+  color: #ffffff;
+  font-size: 19px;
+  width: 200px;
+  line-height: 30px;
+  background-color: #0bacff;
+  border: 2px solid #0bacff;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.btn-add-photo:hover {
+  color: #ffffff;
+  background-color: #0488cd;
+  border: 2px solid #0488cd;
+}
+
+.btn-share {
+  color: #111;
+  font-size: 19px;
+  float: right;
+  width: 100px;
+  line-height: 30px;
+  background-color: #eeeeee;
+  border: 2px solid black;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -o-border-radius: 27px;
+  margin-right: 3%;
+  margin-bottom: 1%;
+  margin-top: 5px;
+}
+
+.btn-share:hover {
+  color: #eeeeee;
+  background-color: #111;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#right-nav1 {
+  margin-top: 10px;
+  width: 65.5%;
+  background-color: #eb563a;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  border: 3px solid black;
+  height: auto;
+  float: right;
+  padding: 7px;
+}
+
+.profile-pics img {
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.profile-pics b {
+  color: #111;
+  margin-left: 16px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-pics strong {
+  color: #111;
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.post-content {
+  width: 95%;
+  margin-left: 2%;
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #eeeeee;
+}
+
+.post-content p {
+  text-indent: 10px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.post-content img {
+  border: 3px solid #111;
+  width: 90%;
+  height: 90%;
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+
+.delete-post {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.btn-delete {
+  color: #111;
+  height: 15px;
+  font-size: 10px;
+  float: right;
+  width: 30px;
+  background-color: #eeeeee;
+  border: 2px solid black;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.btn-delete:hover {
+  color: #eeeeee;
+  font-size: 10px;
+  width: 30px;
+  font-weight: bold;
+  background-color: #111;
+  border: 2px solid black;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.comment-area {
+  width: 70%;
+  background-color: #44a9cc;
+  padding: 3px;
+  margin-top: 0px;
+  margin-left: 2%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.comment-area img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom: 2%;
+
+  position: relative;
+  top: 12px;
+  left: 15px;
+}
+
+.user-comment-name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #111;
+  font-size: 22px;
+  text-indent: 5px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-left: 2%;
+
+  position: relative;
+  top: 20px;
+}
+
+.user-comment-name img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+
+  position: relative;
+  bottom: 20px;
+}
+
+.time-comment {
+  font-size: 15px;
+  color: #111;
+  margin-left: 15px;
+  margin-top: 2%;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+
+  position: relative;
+  bottom: 10px;
+}
+
+.comment {
+  font-size: 18px;
+  color: #111;
+  text-indent: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.picture-comment img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+
+.comment-text {
+  border: 2px solid #eeeeee;
+  font-size: 19px;
+  text-indent: 5px;
+  width: 350px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  vertical-align: middle;
+  margin-top: auto;
+
+  position: relative;
+  bottom: 30px;
+  width: 70%;
+}
+
+.comment-display {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 10px;
+  background-color: #ffb600;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.btn-comment {
+  color: #111;
+  font-size: 20px;
+  width: 70px;
+  background-color: #eeeeee;
+  border: 2px solid black;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+
+  position: relative;
+  bottom: 31px;
+}
+
+.btn-comment:hover {
+  color: #eeeeee;
+  font-size: 20px;
+  width: 70px;
+  background-color: #111;
+}
+
+.comment-area input {
+  background-color: #eeeeee;
+  border: 2px solid black;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -o-border-radius: 27px;
+  margin-left: 3%;
+  margin-top: -10px;
+  cursor: pointer;
+}
